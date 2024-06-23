@@ -25,6 +25,7 @@
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="capitulos.html">Capitulos</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
                     <li><a href="contactos.html">Contactos</a></li>
 
@@ -46,19 +47,19 @@
              
                 <div class="formulario">
                     
-                        <form action="#" target="" method="post" name="formDatosPersonales">
+                        <form action="/formulario" target="" method="post" >
 
                             <label for="nombre">Nombre</label>
-                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"required/>
+                            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"required/>
                             <br>
                             <label for="apellidos">Apellidos</label>
-                            <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"required/>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Apellido"required/>
                             <br>
                             <label for="email" >Email</label>
-                            <input type="email" name="email" id="email" placeholder="email" required />
+                            <input type="email" id="email" name="email" placeholder="email" required />
                             <br>
                             <label class ="submit_" for="mensaje">Mensaje</label>
-                            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+                            <textarea name="mensaje"  placeholder="" maxlength="300"name ="comentario"></textarea>
                             <br>
                             <input type="submit" name="enviar" value="enviar datos"/>
                         </form>

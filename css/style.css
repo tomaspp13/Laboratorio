@@ -12,7 +12,7 @@ body{
 }
 h1{
     font-size: 20px;
-    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     grid-area: header;
@@ -26,25 +26,19 @@ header{
 .nav{
      
     background-color: rgb(0, 0, 0);
-    margin-left: 20%;
     z-index: 1001;
     
-}
-header div{
-
-    background-color: black;
-
 }
 .imagen_titulo{
 
     width: 100px;
     height:  auto;
-    margin-right: 28%;
+    margin-left: 40px;
    
 }
 ul{
     
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     list-style-type: none;
     text-align: center;
@@ -100,7 +94,8 @@ section img{
     background-color: #fdcd4b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
-
+    margin-bottom: 40px;
+    
 }
 .Imagen_Principal{
 
@@ -120,7 +115,7 @@ section img{
     height: 900px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius:10px;	
-
+    
 }
 .desripcion p{
 
@@ -167,7 +162,7 @@ footer{
         "Informacion" 
         "footer "        
     ;
-    grid-template-rows: 15% auto auto auto; 
+    grid-template-rows: 6% auto auto; 
     grid-template-columns: 100%; 
     min-height: 100vh;
 }
