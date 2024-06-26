@@ -5,11 +5,6 @@
     
 }
 
-
-html{
-    height: 100%;
-}
-
 body{
 
     background-color: #fdcd4b;
@@ -89,60 +84,81 @@ a:hover {
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);  
 }
 .formulario{
-
+    
     background-color:#ccc;
     width: 50%;
-    height: 370px;
+    height: 430px;
     margin:  auto;
-    margin-top: 50px;
-    border-style:groove;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius:10px;
+    padding: 20px;
     
 }
 .formulario form{
 
-    margin-top: 10px;
-    justify-content: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+
 }
-form label{
-	width:72px;
-	font-weight:bold;
-	display:inline-block;
-    margin-right: 20px;
+.form-grupo {
+
+    width: 100%;
+    height: 10%;
+
 }
-.formulario input{
-    margin-top: 20px;
+.label_contenedor{
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.input_contenedor input{
+
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+
+}
+.text_contenedor textarea{
+
+    width: 100%;
+    height: 100px;
+    resize: none;
     border-radius:3px;
     border:1px solid #f6f6f6;
-    width: 250px;
-    height: 25px;
-}
-.submit_{
 
-    margin-right: 270px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-   
+}
+.submit_contenedor{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.submit_contenedor input {
+
+    height: 30px;
+
 }
 form input[type="submit"]{
+
 	width:50%;
-	margin-top:10px;
 	border:1px solid #000;
 	border-radius:5px;
 	color:#fff;
 	background-color:#000;
+
 } 
-.formulario textarea{
-    
-    margin-top: 20px;
-    width:80%;
-	height:100px;
-    border-radius:3px;
-    border:1px solid #f6f6f6;	
-	margin:8px 0;
-    resize: none;
-}
+
 .fondo_izquierda{
 
     width: 190px;

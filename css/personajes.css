@@ -8,13 +8,6 @@ html{
     height: 100%;
 }
 
-body{
-
-    background-color: #fdcd4b;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 header{
     grid-area: header;
@@ -81,8 +74,13 @@ a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 .personaje{
 
+    background-repeat: repeat;
+    background-size: auto;
+    margin: 0; 
+    padding: 0; 
     display: flex;
     grid-area: personaje;
    background-color: #fdcd4b;
@@ -90,6 +88,8 @@ a:hover {
     justify-content: center;
 
 }
+
+
 .contenedor_de_peronajes{
 
     display: flex;
@@ -119,6 +119,36 @@ a:hover {
     box-shadow: 5px 5px 5px  6px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+.contenedor_imagen{
+
+    width: auto;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contenedor_imagen img{
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.contenedor_descripcion{
+
+    width: auto;
+    height: 30%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+.contenedor_descripcion p{
+
+    text-align: left;
+
+}
+
 footer{
     
     grid-area: footer;

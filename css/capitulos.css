@@ -5,11 +5,6 @@
     
 }
 
-
-html{
-    height: 100%;
-}
-
 body{
 
     background-color: #fdcd4b;
@@ -71,11 +66,7 @@ ul li a{
 a:hover {
     color: rgb(83, 83, 83); 
 }
-h1{
-    font-size: 3em; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 10px; 
-}
+
 .titulo_capitulos{
 
     grid-area: titulo_capitulos;
@@ -124,13 +115,38 @@ h1{
 
     background-color: #fdcd4b;
     width: 450px;
-    height: 405px;
+    height: 450px;
     box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    
 }
-.caja img{
+
+.contenedor_gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70%;
+
+}
+.contenedor_descripcion{
+    
+    width: auto;
+    height: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.contenedor_descripcion p{
+
+    text-align: left;
+
+}
+.contenedor_gif img{
 
     border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
 }
 footer{
