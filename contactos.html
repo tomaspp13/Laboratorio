@@ -9,7 +9,8 @@
         <link href="css/contactos.css" rel="stylesheet">
         <link rel="icon" href="img/titulo.jpg" type="image/png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
     </head>
 
     <body class ="Contenedor">    
@@ -19,15 +20,21 @@
             <div>
                 <img class="imagen_titulo" src="img/titulo.jpg" alt="Principal">     
             </div>
-           
-            <nav class =nav>
+
+           <div class="contenedor_menu">
+                <button class="Abrir_menu" id="Abrir"><i class="bi bi-list"></i></button>
+           </div>
+        
+            <nav class ="nav" id="Nav">
                 
-                <ul>
+                <ul class="nav_list">
+
+                    <button class = "Salir_menu" id="Cerrar"><i class="bi bi-x-lg"></i></button>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="capitulos.html">Capitulos</a></li>
                     <li><a href="personajes.html">Personajes</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contactos.html">Contactos</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>   
 
                 </ul>
 

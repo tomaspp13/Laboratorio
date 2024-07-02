@@ -208,7 +208,7 @@ body {
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows: 5.8% auto auto ; 
+        grid-template-rows: 5.3% auto auto ; 
         grid-template-columns: 100%  ; 
         min-height: 100vh;
     }
@@ -228,11 +228,6 @@ body {
         height :400px;
     }
 
-    nav{
-
-        display: none;
-
-    }
     footer .redes-sociales{
 
         justify-content: center;

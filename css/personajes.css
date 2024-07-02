@@ -4,11 +4,6 @@
     padding: 0;
     
 }
-html{
-    height: 100%;
-}
-
-
 header{
     grid-area: header;
     display: flex;
@@ -17,37 +12,49 @@ header{
     height: 12.6%;
     position: fixed;
     z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+}
+.Abrir_menu{
+
+    display: none;
+
+}  
+.Salir_menu{
+
+    display:none;
+
 }
 .nav{
      
     background-color: rgb(0, 0, 0);
-    
     z-index: 1001;
+    justify-content: center;
     
 }
-
 .imagen_titulo{
 
     width: 100px;
     height:  auto;
     margin-left: 40px;
+   
 }
-ul{
+.nav_list{
     
-    margin-left: 30px;
+    
     display: flex;
     list-style-type: none;
     text-align: center;
+    padding-right: 60px;
     
 }
-ul li{
+.nav_list li{
 
     margin-left: 100px;
-    margin-top: 25px;
     font-size: 35px;
     
 }
-ul li a{
+.nav_list li a{
 
     color:antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -155,20 +162,25 @@ footer{
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    margin-left: -120px;
+    align-items: center;
+    height: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 }
-.redes-sociales a {
+.social-icons a {
     color: #fff; 
     text-decoration: none; 
     font-size: 60px; 
 }
-    
-.Contenedor{
-     
-    text-align: center;
-    
+.social-icons {
+
+    width: 400px;
+    height: auto;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; 
 }
 .Contenedor{
     
@@ -185,4 +197,114 @@ footer{
     grid-template-rows: 6.5% auto auto auto; 
     grid-template-columns: 100%; 
     min-height: 100vh;
+}
+@media(max-width : 480px){
+
+    .Contenedor{
+        
+        
+        display: grid;
+        gap: 0px;
+        place-content: center; 
+        grid-template-areas: 
+
+            "header" 
+            "titulo_personajes"   
+            "personaje" 
+            "footer "        
+        ;
+        grid-template-rows: 3.2% auto auto auto; 
+        grid-template-columns: 100%; 
+        min-height: 100vh;
+    }
+    
+    .titulo_personajes{
+
+        border-radius: 0;
+
+    }
+
+   .personaje{
+
+    width: 100%;
+    height: auto;
+
+   } 
+
+   .contenedor_de_peronajes{
+
+    width: auto;
+
+   }
+   
+   .contenedor_menu{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 0; 
+    margin-right: 40px;
+    }
+
+    .Abrir_menu{
+
+        display: block;
+        height: 50px;
+        width: 40px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        font-size: 50px;
+        
+    }
+
+
+    .Salir_menu{
+
+        display: block;
+        height: 50px;
+        width: 40px;
+        border: none;
+        background-color: #1c1c1c;
+        color: #fff;
+        font-size: 30px;
+
+    }
+    .nav{
+        display: flex;
+        position: fixed;
+        top : 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        z-index: 1001;
+        background-color: #1c1c1c;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0,.5);
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav.visible{
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+    .nav_list{
+
+        padding-top: 5px;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 12px;
+        padding-right: 100px;
+        
+    }
+
+    .nav_list li{
+
+        padding-top: 30px;
+
+    }
+
 }
