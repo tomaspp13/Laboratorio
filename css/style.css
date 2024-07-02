@@ -210,9 +210,26 @@ footer{
         min-height: 100vh;
     }
 
-  .Abrir_menu{
+    .contenedor_menu{
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 30px;
+        
+    }
+
+    .Abrir_menu{
 
         display: block;
+        height: 50px;
+        width: 40px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        font-size: 50px;
         
     }
 
@@ -220,11 +237,16 @@ footer{
     .Salir_menu{
 
         display: block;
+        height: 50px;
+        width: 40px;
+        border: none;
+        background-color: #1c1c1c;
+        color: #fff;
+        font-size: 30px;
 
     }
     .nav{
         display: flex;
-        padding-top: 20px;
         position: fixed;
         top : 0;
         right: 0;
@@ -244,9 +266,11 @@ footer{
     }
     .nav_list{
 
+        padding-top: 5px;
         flex-direction: column;
         align-items: end;
-        padding-right: 90px;
+        margin-top: 12px;
+        padding-right: 100px;
         
     }
 
