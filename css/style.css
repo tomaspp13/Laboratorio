@@ -147,26 +147,27 @@ footer{
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    height: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 }
-.redes-sociales a {
+.social-icons a {
     color: #fff; 
     text-decoration: none; 
     font-size: 60px; 
 }
-.redes-sociales ul{
+.social-icons {
 
+    width: 400px;
+    height: auto;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
     display: flex;
-    list-style: none;
-
+    justify-content: space-around; 
 }
-.redes-sociales ul li{
 
-    padding-left:50px;
-
-}
 .Contenedor{
      
     text-align: center;
@@ -189,15 +190,17 @@ footer{
     grid-template-columns: 100%; 
     min-height: 100vh;
 }
+body {
+    background-color: #fdcd4b;
+    overflow-x: hidden; /* Esto debería ocultar la barra de desplazamiento horizontal */
+    margin: 0;
+    padding: 0;
+}
 @media(max-width : 480px){
 
-
     .Contenedor{
-    
-        display: grid;
-        gap: 0px;
-        place-content: center; 
-        align-items: stretch;
+        
+        
         grid-template-areas: 
     
             "header " 
@@ -205,39 +208,35 @@ footer{
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows: 5.5% auto auto; 
-        grid-template-columns: 100%; 
+        grid-template-rows: 5% auto auto ; 
+        grid-template-columns: 100%  ; 
         min-height: 100vh;
     }
-
-    body {
-
-        overflow-x: hidden;
+    
+    .Informacion {
+        
+        margin: 0;
+        height: 830px;
+        	     
     }
-    .section{
+    .principal{
 
-        display: flex;
-        grid-area: section;
-        width: 100%;
-        height: 70%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        margin-top: 50px;
-
+        border-radius: 0px;
     }
-    .desripcion h1{
-
-        font-size: 65px;
-
-    }
-    .desripcion{
-
-        max-width: 90%;
-        margin: 0 auto;
-
+    .Imagen_Principal img {
+        max-width: 100%; 
+        height :400px;
     }
 
-    .desripcion p {
-        font-size: 20px;
+    nav{
+
+        display: none;
+
+    }
+    footer .redes-sociales{
+
+        justify-content: center;
+
     }
 
     .contenedor_menu{
@@ -247,8 +246,8 @@ footer{
         display: flex;
         align-items: center;
         justify-content: end;
-        margin-right: 30px;
-        
+        margin-right: 0; 
+        margin-right: 40px;
     }
 
     .Abrir_menu{
@@ -310,11 +309,10 @@ footer{
 
     }
 
-    .footer {
-        position: relative; 
-        width: 100%;
-        margin-top: 161px; 
-        clear: both;
+    .principal h1{
+
+        font-size: 60px;
+
     }
 
 }
