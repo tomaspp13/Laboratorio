@@ -219,27 +219,91 @@ footer{
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows: 4.8% auto auto auto; 
+        grid-template-rows: 5.8% auto auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
+    }
+
+    body{
+
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+    .Contenedor{
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    .imagen_titulo{
+
+        width: 83px;
+        height:  60px;
+        margin-left: 40px;
+       
     }
 
     .titulo_capitulos{
 
         border-radius: 0;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .header{
+
+        width: auto;
+        height: auto;
 
     }
 
     .episodios{
 
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
+        
 
     }
 
     .contenedor_de_caja{
 
         margin-bottom: 50px;
+        width: auto;
+
+    }
+
+    .caja{
+
+        width: auto;
+        height: auto;
+    }
+
+    .contenedor_descripcion{
+
+        font-size: 14px;
+        width: auto;
+        height: auto;
+    }
+
+
+    .contenedor_gif{
+
+        width: auto;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    .contenedor_gif img{
+
+        width: auto;
+        height: auto;
 
     }
 
@@ -309,6 +373,13 @@ footer{
     .nav_list li{
 
         padding-top: 30px;
+
+    }
+
+    .footer{
+
+        width: auto;
+        
 
     }
 

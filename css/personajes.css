@@ -213,39 +213,96 @@ footer{
             "personaje" 
             "footer "        
         ;
-        grid-template-rows: 3.2% auto auto auto; 
+        grid-template-rows: 4.3% auto auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
     }
     
+    body{
+
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagen_titulo{
+
+        width: 83px;
+        height:  60px;
+        margin-left: 40px;
+       
+    }
+
     .titulo_personajes{
 
         border-radius: 0;
+        width: auto;
+        
+        
+
+    }
+    .episodios{
+
+        width: auto;
+        height: auto;
+
+    }
+    .personaje{
+
+        width: 100%;
+        height: auto;
+
+    } 
+
+    .contenedor_de_peronajes{
+
+        width: auto;
+        height: auto;
+
+    }
+    .contenedor_cajas{
+
+        width: auto;
+        height: auto;
 
     }
 
-   .personaje{
+    .caja{
 
-    width: 100%;
-    height: auto;
+        width: auto;
+        height: auto;
+    }
 
-   } 
+    .contenedor_imagen{
 
-   .contenedor_de_peronajes{
+        width: auto;
+        height: auto;
 
-    width: auto;
+    }
 
-   }
+    .contenedor_imagen img{
+
+        width: auto;
+        height: auto;
+
+    }
+
+    .contenedor_descripcion{
+
+        width: auto;
+        height: auto;
+
+    }
    
    .contenedor_menu{
 
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-right: 0; 
-    margin-right: 40px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 0; 
+        margin-right: 40px;
     }
 
     .Abrir_menu{
@@ -305,6 +362,12 @@ footer{
 
         padding-top: 30px;
 
+    }
+
+    footer{
+
+        width: auto;
+        
     }
 
 }

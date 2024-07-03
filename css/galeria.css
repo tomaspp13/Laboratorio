@@ -191,15 +191,37 @@ footer{
             "titulo_galeria"
             "Informacion"
             "footer";
-        grid-template-rows: 3.1% auto auto auto;
+        grid-template-rows: 2.7% auto auto auto;
         grid-template-columns: 100%;
         min-height: 100vh;
         
     }
-    
+    body{
+
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Contenedor{
+
+        width: 100%;
+        height: auto;
+        
+    }
+    .imagen_titulo{
+
+        width: 83px;
+        height:  60px;
+        margin-left: 40px;
+       
+    }
+
     .titulo_galeria{
 
         border-radius: 0;
+        width: 100%;
+        height: auto;
 
     }
 
@@ -207,9 +229,55 @@ footer{
 
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+       padding-bottom: 10px;
+       padding-top: 0;
+    }
 
-   }
+    .contenedor_gif div{
+
+        width: 100%;
+        height: auto;
+
+    }
     
+    .contenedor_gif div img{
+
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .contenedor_img{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 30px;
+        padding-top: 0;
+        padding-bottom: 0;
+    
+    }
+
+    .contenedor_img div{
+
+        width: 100%;
+        height: auto;
+
+    }
+    
+    .contenedor_img div img{
+
+        width: auto;
+        height: auto;
+
+    }
+
    .contenedor_menu{
 
     height: 100%;
@@ -232,12 +300,12 @@ footer{
         
     }
 
-
     .Salir_menu{
 
         display: block;
         height: 50px;
         width: 40px;
+        margin-right: 25px;
         border: none;
         background-color: #1c1c1c;
         color: #fff;
@@ -281,8 +349,8 @@ footer{
 
     .contenedor_img div{
 
-        width: 426px;
-        height: 313px;
+        width: 100%;
+        height: auto;
 
     }
 
@@ -295,6 +363,8 @@ footer{
     .Informacion{
 
         margin-bottom: 30px;
+        width: 100%;
+        height: auto;
 
     }
 

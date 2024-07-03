@@ -212,36 +212,59 @@ body {
         grid-template-columns: 100%  ; 
         min-height: 100vh;
     }
+
+    body{
+
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
     
+
+    .imagen_titulo{
+
+        width: 83px;
+        height:  60px;
+        margin-left: 40px;
+       
+    }
+    header{
+
+        width: 100%;
+
+    }
     .Informacion {
         
         margin: 0;
-        height: 830px;
+        width: auto;
+        height: auto;
         	     
     }
     .principal{
 
+        width: auto;
+        height: auto;
+
         border-radius: 0px;
     }
-    .Imagen_Principal img {
-        max-width: 100%; 
-        height :400px;
+    .Imagen_Principal{
+
+        height: auto;
+        padding: 0;
+
     }
-
-    footer .redes-sociales{
-
-        justify-content: center;
-
+    .Imagen_Principal img {
+        width: 100%; 
+        height :auto;
     }
 
     .contenedor_menu{
 
-        height: 100%;
-        width: 100%;
+        
         display: flex;
         align-items: center;
         justify-content: end;
-        margin-right: 0; 
         margin-right: 40px;
     }
 
@@ -256,13 +279,13 @@ body {
         font-size: 50px;
         
     }
-
     
     .Salir_menu{
 
         display: block;
         height: 50px;
         width: 40px;
+        margin-right: 25px;
         border: none;
         background-color: #1c1c1c;
         color: #fff;
