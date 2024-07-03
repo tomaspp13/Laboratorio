@@ -219,7 +219,7 @@ footer{
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows: 5.8% auto auto auto; 
+        grid-template-rows: auto auto auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
     }

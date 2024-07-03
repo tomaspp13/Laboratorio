@@ -375,6 +375,7 @@ footer{
     footer{
 
         width: auto;
+        bottom: 0;
 
     }
 }
