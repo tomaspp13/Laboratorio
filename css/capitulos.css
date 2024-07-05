@@ -305,8 +305,8 @@ footer{
 
     .contenedor_gif img{
 
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
 
     }
 
