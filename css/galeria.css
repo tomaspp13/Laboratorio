@@ -79,6 +79,7 @@ a:hover {
     text-align: center;
     border-radius: 5px;
     align-items: center;
+    display: none;
 
 }
 .titulo_galeria h2{
