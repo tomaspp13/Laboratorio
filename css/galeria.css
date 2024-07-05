@@ -191,7 +191,7 @@ footer{
             "titulo_galeria"
             "Informacion"
             "footer";
-        grid-template-rows:  min-content auto min-content;
+        grid-template-rows: 3.3% auto auto auto;
         grid-template-columns: 100%;
         min-height: 100vh;
         
