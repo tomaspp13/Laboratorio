@@ -275,13 +275,16 @@ footer{
 
         margin-bottom: 50px;
         width: auto;
+        display: flex;
+        justify-content: center;
 
     }
 
     .caja{
 
-        width: auto;
+        width: 80%;
         height: auto;
+        
     }
 
     .contenedor_descripcion{
@@ -378,8 +381,7 @@ footer{
 
     .footer{
 
-        width: auto;
-        
+        width: 100%;
 
     }
 

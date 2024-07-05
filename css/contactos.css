@@ -239,7 +239,7 @@ footer{
     .Contenedor{
     
         display: grid;
-        gap: 50px;
+        gap: 20px;
         place-content: center; 
        
         grid-template-areas: 
@@ -248,7 +248,7 @@ footer{
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows: 12% auto auto; 
+        grid-template-rows: 20% auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
     }
@@ -272,10 +272,11 @@ footer{
 
     .Informacion{
 
-        height: 500px;
+        height: 600px;
+        
 
     }
-
+   
     .contenedor_formulario{
 
         width: 90%;
@@ -374,7 +375,7 @@ footer{
 
     footer{
 
-        width: auto;
+        width: 100%;
         bottom: 0;
 
     }

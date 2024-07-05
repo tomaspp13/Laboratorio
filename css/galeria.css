@@ -202,10 +202,14 @@ footer{
         margin: 0;
         padding: 0;
     }
-
-    .Contenedor{
+    .header{
 
         width: 100%;
+
+    }
+    .Contenedor{
+
+        width: auto;
         height: auto;
         
     }
@@ -220,7 +224,7 @@ footer{
     .titulo_galeria{
 
         border-radius: 0;
-        width: 100%;
+        width: auto;
         height: auto;
 
     }

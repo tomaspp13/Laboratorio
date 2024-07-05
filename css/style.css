@@ -208,7 +208,7 @@ body {
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows: 5.3% auto auto ; 
+        grid-template-rows: 7.3% auto auto ; 
         grid-template-columns: 100%  ; 
         min-height: 100vh;
     }

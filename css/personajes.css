@@ -264,12 +264,14 @@ footer{
 
         width: auto;
         height: auto;
+        display: flex;
+        justify-content: center;
 
     }
 
     .caja{
 
-        width: auto;
+        width: 80%;
         height: auto;
     }
 
@@ -277,6 +279,7 @@ footer{
 
         width: auto;
         height: auto;
+        padding: 10px;
 
     }
 
