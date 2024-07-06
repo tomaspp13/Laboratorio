@@ -79,7 +79,7 @@ a:hover {
     text-align: center;
     border-radius: 5px;
     align-items: center;
-    display: none;
+    
 
 }
 .titulo_galeria h2{
@@ -208,6 +208,14 @@ footer{
 
         width: 100%;
 
+    }
+    .Informacion{
+
+        width: 100%;
+        margin-top: 77px;
+        width: 100%;
+        height: auto;
+        
     }
     .Contenedor{
 

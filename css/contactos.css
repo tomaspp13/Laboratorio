@@ -248,7 +248,7 @@ footer{
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows:  min-content auto min-content; 
+        grid-template-rows:  auto auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
     }
@@ -260,7 +260,14 @@ footer{
         padding: 0;
     }
 
-    
+    .Informacion{
+
+        width: 100%;
+        height: auto;
+
+        margin-top: 57px;
+
+    }
         
     .imagen_titulo{
 

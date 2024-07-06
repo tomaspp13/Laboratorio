@@ -215,11 +215,10 @@ footer{
         grid-template-areas: 
         
             "header " 
-            "titulo_capitulos"  
             "Informacion" 
             "footer "        
         ;
-        grid-template-rows:  6.5% auto auto auto; 
+        grid-template-rows: auto auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
     }
@@ -240,6 +239,13 @@ footer{
 
     }
 
+    .Informacion{
+
+        margin-top: 79px;
+        width: 100%;
+        height: auto;
+
+    }
     .imagen_titulo{
 
         width: 83px;
