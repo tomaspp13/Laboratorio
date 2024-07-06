@@ -250,9 +250,7 @@ footer{
 
     .titulo_capitulos{
 
-        border-radius: 0;
-        width: 100%;
-        height: auto;
+        display: none;
 
     }
 

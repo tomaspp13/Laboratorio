@@ -28,7 +28,7 @@ header{
 .nav{
      
     background-color: rgb(0, 0, 0);
-    z-index: 1001;
+    
     justify-content: center;
     
 }
@@ -208,12 +208,11 @@ footer{
         place-content: center; 
         grid-template-areas: 
 
-            "header" 
-            "titulo_personajes"   
+            "header"       
             "personaje" 
             "footer "        
         ;
-        grid-template-rows: 4.3% auto auto auto; 
+        grid-template-rows: auto auto auto; 
         grid-template-columns: 100%; 
         min-height: 100vh;
     }
@@ -235,11 +234,7 @@ footer{
 
     .titulo_personajes{
 
-        border-radius: 0;
-        width: auto;
-        
-        
-
+        display: none;
     }
     .episodios{
 
@@ -251,13 +246,15 @@ footer{
 
         width: 100%;
         height: auto;
-
+        margin-top: 60px;
+        
     } 
 
     .contenedor_de_peronajes{
 
         width: auto;
         height: auto;
+        padding-bottom: 20px;
 
     }
     .contenedor_cajas{
@@ -266,7 +263,7 @@ footer{
         height: auto;
         display: flex;
         justify-content: center;
-
+        
     }
 
     .caja{

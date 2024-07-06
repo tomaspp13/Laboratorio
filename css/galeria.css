@@ -225,9 +225,7 @@ footer{
 
     .titulo_galeria{
 
-        border-radius: 0;
-        width: auto;
-        height: auto;
+        display: none;
 
     }
 
